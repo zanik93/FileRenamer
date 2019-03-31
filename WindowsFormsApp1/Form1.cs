@@ -67,33 +67,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        //private void renameBtn_Click(object sender, EventArgs e)
-        //{
-        //    //FIGURE THE BELOW CHECK        
-
-
-        //    if (Renamer.Renamed == false & RenameChecker == true && Renamer.renamedFiles == 0)
-        //    {
-        //        MessageBox.Show("Load new files");
-        //        return;
-
-        //    }
-        //    Renamer.UpdateFiles(fLoad.loadedFiles.ToArray());
-
-        //    Renamer.RenameItVoid(textBox2.Text, textBox3.Text, int.Parse(textBox1.Text));
-
-        //    if (Renamer.renamedFiles == 0)
-        //    {
-        //        MessageBox.Show("No files to rename");
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show($"You have successfuly renamed {Renamer.renamedFiles.ToString()} files");
-        //    }
-        //    RenameChecker = true;
-
-        //}
-
         private void renameBtn_Click(object sender, EventArgs e)
         {
             //FIGURE THE BELOW CHECK        

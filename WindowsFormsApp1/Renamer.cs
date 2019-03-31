@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
         }
 
 
-
+        //Rename the files
         public void RenameItVoid(string contains, string renameTo, int count)
         {
             for(int i = 0; i < loadedFiles.Length; i ++)
